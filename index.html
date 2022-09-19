@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Api</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+  <div id="header"> <h1>Api que imprime la temperatura actual</h1></div>
+    
+  <div>
+    <label for="lat">lat</label>
+    <input type="text" id="lat">
+
+    <label for="lat">lon</label>
+    <input type="text" id="lon">
+
+    <button onclick="getMyIpHttp()">Imprimir temperatura actual</button>
+  </div>
+
+  <div id="temp"> Aqui va la temperatura</div>
+
+  <footer>
+    <p> Copyright &copy; Daniel de la Torre - A01733400</p>
+</footer>
+
+</body>
+</html>
